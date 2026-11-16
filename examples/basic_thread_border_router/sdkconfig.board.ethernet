@@ -1,0 +1,6 @@
+# ESP Thread Border Router board as deployed: wired W5500 Ethernet (pins come
+# from sdkconfig.defaults), web GUI, and Thread started from the saved dataset.
+CONFIG_EXAMPLE_CONNECT_ETHERNET=y
+# CONFIG_EXAMPLE_CONNECT_WIFI is not set
+CONFIG_OPENTHREAD_BR_AUTO_START=y
+CONFIG_OPENTHREAD_BR_START_WEB=y
